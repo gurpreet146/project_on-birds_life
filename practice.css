@@ -1,0 +1,605 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    min-width: 100%;
+    background-color: black;
+    scroll-behavior: smooth;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 74px;
+    text-align: center;
+    background-color: #2196f3;
+    z-index: 2;
+}
+
+
+.space {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0%;
+}
+
+.bar {
+    list-style: none;
+    font-size: 2.5rem;
+}
+
+.change {
+    display: block;
+    padding: 3px 22px;
+    color: black;
+    text-decoration: none;
+
+    /*margin-right: 2%;*/
+}
+
+.change:hover {
+    display: block;
+    padding: 3px 22px;
+    background-color: white;
+    border-radius: 20% 20% 20% 20%;
+    color: black;
+    text-decoration: none;
+
+    /*margin-right: 2%;*/
+}
+
+/*section intro*/
+.main_center {
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+    display: flex;
+    height: 700px;
+    width: 100%;
+    background: url(pecock.jpg) no-repeat center center/cover;
+    background-size: contain;
+
+    border-image-width: 100%;
+}
+
+/*h1 text from intro*/
+
+.a1:hover {
+    animation-name: rotate;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+.a2:hover {
+    animation-name: rotate;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+.a3:hover {
+    animation-name: rotate;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+.a4:hover {
+    animation-name: rotate;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+.a5:hover {
+    animation-name: rotate;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+/*h1 {
+    display: inline-block;
+    font-size: 3.2rem;
+    margin-left: 24px;
+    padding-left: 2%;
+    color: white;
+}*/
+
+.a1 {
+
+    position: relative;
+    height: 7px;
+    color: #2196f3;
+    font-size: 3.2rem;
+    top: 29%;
+    left: 8%;
+    margin-left: 24px;
+    padding-left: 2%;
+}
+
+.a2 {
+    position: relative;
+    font-size: 3.2rem;
+    height: 7px;
+    color: #216af39e;
+    top: 29%;
+    left: 8%;
+    margin-left: 24px;
+    padding-left: 2%;
+}
+
+.a3 {
+    position: relative;
+    font-size: 3.2rem;
+    color: #41aeb6;
+    height: 7px;
+    top: 29%;
+    left: 8%;
+    margin-left: 24px;
+    padding-left: 2%;
+}
+
+.a4 {
+    position: relative;
+    font-size: 3.2rem;
+    height: 7px;
+    color: #03a9f4;
+    top: 29%;
+    left: 8%;
+    margin-left: 24px;
+    padding-left: 2%;
+}
+
+.a5 {
+    position: relative;
+    color: #216af39e;
+    font-size: 3.2rem;
+    height: 7px;
+    top: 29%;
+    left: 8%;
+    margin-left: 24px;
+    padding-left: 2%;
+}
+
+/*types of birds*/
+.types {
+    display: flex;
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 1385px;
+    background-size: 100%;
+
+}
+
+.container {
+    width: 100%;
+}
+
+.gallery {
+    position: relative;
+    text-align: center;
+    font-size: 2.5rem;
+    width: 100%;
+    height: 33px;
+    top: 3%;
+    
+    /*left: 25%;
+    color: #ffffff80;*/
+}
+
+.bird-title_1 {
+    position: relative;
+    width: 100%;
+    height: 33px;
+    /*align-items: center;
+    left: -24%;
+    justify-content: center;*/
+    text-align: center;
+    top: 6%;
+    font-size: 2.5rem;
+}
+
+/*titles of ever section of birds in type class*/
+.bird_section_1 {
+    display: flex;
+    top: 15%;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+
+/*bird1*/
+.bird1 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    font-size: x-large;
+    top: 0%;
+    /*left: 2%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black;*/
+    color: #03a8f4b8;
+    border: 9px solid #03a9f4;
+    border-radius: 5%;
+    margin-bottom: 103px;
+}
+
+.bird1 p {
+    margin: 2%;
+}
+
+.bird1 h2 {
+    margin: 11px;
+    text-decoration: underline;
+}
+
+.bird1 img {
+    width: 300px;
+    height: 240px;
+}
+
+/*bird2*/
+.bird2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    font-size: 1.5rem;
+    top: 0%;
+    /*left: 15%;
+    right: 0%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black;*/
+    color: #03a8f4b8;
+    border: 9px solid #03a9f4;
+    border-radius: 5%;
+    margin-bottom: 103px;
+}
+
+.bird2 p {
+    margin: 2%;
+}
+
+.bird2 h2 {
+    margin: 11px;
+    text-decoration: underline;
+}
+
+.bird2 img {
+    width: 300px;
+    height: 240px;
+}
+
+.bird3 {
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 500px;
+    height: 456px;
+    font-size: 1.4rem;
+    top: 4%;
+    /*left: 29%;
+    right: 0%;
+    overflow-x: hidden;
+    overflow-y: hidden;*/
+    background-color: black;
+    color: #03a8f4b8;
+    border: 9px solid #03a9f4;
+    border-radius: 5%;
+
+}
+
+.bird3 p {
+    margin: 2%;
+}
+
+.bird3 h2 {
+    margin: 11px;
+    text-decoration: underline;
+}
+
+.bird3 img {
+    width: 380px;
+    height: 197px;
+}
+
+/*type 2*/
+.type2 {
+    display: flex;
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 1404px;
+    background-size: 100%;
+}
+
+
+
+.bird-title_2 {
+    position: relative;
+    width: 100%;
+    height: 33px;
+    text-align: center;
+    top: 4%;
+    /*left: 39%;*/
+    font-size: 2.9rem;
+    color: white;
+}
+
+/*bird-section2*/
+.bird_section_2 {
+    display: flex;
+    top: 17%;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+
+/*.bird_section_1*/
+/*bird4*/
+.bird4 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    font-size: 1.4rem;
+    top: 10%;
+    /*left: 2%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black;*/
+    color: #03a8f4b8;
+    border: 9px solid #03a9f4;
+    border-radius: 5%;
+    margin-bottom: 103px;
+}
+
+.bird4 h2 {
+    margin: 11px;
+    text-decoration: underline;
+}
+
+.bird4 img {
+    width: 300px;
+    height: 240px;
+}
+
+.bird4 p {
+    margin: 1%;
+}
+
+/*bird5*/
+.bird5 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    font-size: 1.3rem;
+    top: 0%;
+    /*left: 15%;
+    right: 0%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black;*/
+    color: #03a8f4b8;
+    border: 9px solid #03a9f4;
+    border-radius: 5%;
+    margin-bottom: 103px;
+}
+
+.bird5 h2 {
+    margin: 21px;
+    text-decoration: underline;
+}
+
+.bird5 img {
+    width: 300px;
+    height: 200px;
+}
+
+
+/*bird6*/
+.bird6 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    font-size: 1.4rem;
+    top: 0%;
+    /*left: 29%;
+    right: 0%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black;*/
+    color: #03a8f4b8;
+    border: 9px solid #03a9f4;
+    border-radius: 5%;
+
+}
+
+.bird6 h2 {
+    margin: 15px;
+    text-decoration: underline;
+}
+
+.bird6 img {
+    width: 400px;
+    height: 220px;
+}
+
+.bird6 p {
+    margin: 1%;
+}
+
+/*life*/
+.life {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 100%;
+    background-size: 100%;
+}
+
+.center {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    color: #000005;
+    background-color: #03a9f4;
+    border: 9px solid rgb(0, 140, 255);
+}
+
+.center h1 {
+    color: #000005;
+}
+
+.center h3 {
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.center p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: blue;
+}
+
+/*cotact*/
+.contact {
+    display: flex;
+    flex-direction: column;
+    top: 55px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    background: url(eagle.jpg) no-repeat center center/cover;
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+}
+
+.contact h1 {
+    position: relative;
+    top: 0%;
+    color: white;
+
+}
+
+.address {
+    list-style: none;
+}
+
+.address li input {
+    width: 414px;
+    margin: 5%;
+    height: 29px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #000000;
+}
+
+.address li button {
+    position: relative;
+
+    height: 39px;
+    left: 150px;
+    font-size: 1.9rem;
+}
+/*code is in document section inside of keyboard sortcut*/
+
+/*animation
+for section class intro h1*/
+@keyframes rotate {
+    10% {
+        transform: rotate(60deg);
+    }
+
+    30% {
+        transform: rotate(120deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    70% {
+        transform: rotate(240deg);
+    }
+
+    90% {
+        transform: rotate(300deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

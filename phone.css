@@ -1,0 +1,360 @@
+@media (width <=1184px) {
+    .main_center {
+        width: 100%;
+    }
+
+    .intro {
+        height: 700px;
+        background: url(pecock.jpg) no-repeat center center/cover;
+        width: auto;
+    }
+
+    .bar {
+        list-style: none;
+        font-size: 1.9rem;
+    }
+
+    .a1 {
+        font-size: 2.3rem;
+    }
+
+    .a2 {
+        font-size: 2.3rem;
+    }
+
+    .a3 {
+        font-size: 2.3rem;
+    }
+
+    .a4 {
+        font-size: 2.3rem;
+    }
+
+    .a5 {
+        font-size: 2.3rem;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .gallery {
+        position: relative;
+        text-align: center;
+        top: 8%;
+        margin-bottom: 2%;
+    }
+
+    .bird-title_1 {
+        position: relative;
+        text-align: center;
+        top: 13%;
+        font-size: 1.8rem;
+    }
+
+    .bird1 {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        width: 420px;
+        height: 420px;
+        font-size: 1.3rem;
+        top: 0%;
+        /*left: 2%;*/
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: black;
+        color: #03a8f4b8;
+        border: 9px solid #03a9f4;
+        border-radius: 5%;
+        margin-bottom: 103px;
+    }
+
+    .bird1 img {
+        width: 200px;
+        height: 140px;
+    }
+
+    .bird2 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        width: 420px;
+        height: 420px;
+        top: 0%;
+        /*left: 15%;*/
+        right: 0%;
+        font-size: 1.3rem;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: black;
+        color: #03a8f4b8;
+        border: 9px solid #03a9f4;
+        border-radius: 5%;
+        margin-bottom: 103px;
+    }
+
+    .bird2 img {
+        width: 200px;
+        height: 140px;
+    }
+
+    .bird3 {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 420px;
+        height: 420px;
+        top: 2%;
+        /*left: 29%;*/
+        right: 0%;
+        font-size: 1.3rem;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: black;
+        color: #03a8f4b8;
+        border: 9px solid #03a9f4;
+        border-radius: 5%;
+        
+    }
+
+    .bird3 img {
+        width: 200px;
+        height: 140px;
+    }
+
+    .types {
+        display: flex;
+        position: relative;
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 1312px;
+        background-size: 100%;
+    }
+
+    .bird_section_1 {
+        display: flex;
+        top: 17%;
+        margin-top: 8%;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 470px;
+        align-items: center;
+        justify-content: space-evenly;
+        position: absolute;
+    }
+
+    .type2 {
+        display: flex;
+        position: relative;
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 1312px;
+        background-size: 100%;
+    }
+
+
+    .bird4 {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        width: 420px;
+        height: 420px;
+        top: 10%;
+        /*left: 2%;*/
+        font-size: 1.3rem;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: black;
+        color: #03a8f4b8;
+        border: 9px solid #03a9f4;
+        border-radius: 5%;
+        margin-bottom: 103px;
+    }
+
+    .bird4 img {
+        width: 200px;
+        height: 140px;
+    }
+
+    .bird5 {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        width: 420px;
+        height: 420px;
+        top: 0%;
+        /*left: 15%;*/
+        right: 0%;
+        font-size: 1.2rem;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: black;
+        color: #03a8f4b8;
+        border: 9px solid #03a9f4;
+        border-radius: 5%;
+        margin-bottom: 103px;
+    }
+
+    .bird5 img {
+        width: 250px;
+        height: 140px;
+    }
+
+    .bird6 {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        width: 420px;
+        height: 420px;
+        top: 0%;
+        /*left: 29%;*/
+        right: 0%;
+        font-size: 1.2rem;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: black;
+        color: #03a8f4b8;
+        border: 9px solid #03a9f4;
+        border-radius: 5%;
+    }
+
+    .bird6 img {
+        width: 300px;
+        height: 140px;
+    }
+/*life*/
+    .center {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        margin-top: 5%;
+        flex-wrap: wrap;
+        color: #000005;
+        background-color: #03a9f4;
+        border: 9px solid rgb(0, 140, 255);
+    }
+
+    .center h3 {
+        text-align: center;
+        margin: 5%;
+        text-decoration: underline;
+        font-size: 1.5rem;
+    }
+}
+@media (width <=840px)
+{
+    .types{
+        height: 1862px;
+    }
+    .type2 {
+        display: flex;
+        position: relative;
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 1912px;
+        background-size: 100%;
+    }
+}
+@media (width <=770px) {
+    .bar {
+        list-style: none;
+        font-size: 1.5rem;
+    }
+
+    header {
+        height: 58px;
+    }
+
+    .intro {
+        height: 450px;
+        background: url(pecock2.jpg) no-repeat center center/cover;
+        width: auto;
+    }
+
+    .a1 {
+        top: 30%;
+        left: 2%;
+        font-size: 1.5rem;
+    }
+
+    .a2 {
+        top: 30%;
+        left: 2%;
+        font-size: 1.5rem;
+    }
+
+    .a3 {
+        top: 30%;
+        left: 2%;
+        font-size: 1.5rem;
+    }
+
+    .a4 {
+        top: 30%;
+        left: 2%;
+        font-size: 1.5rem;
+    }
+
+    .a5 {
+        top: 30%;
+        left: 2%;
+        font-size: 1.5rem;
+    }
+    .gallery {
+        font-size: 2.0rem;
+    }
+    .center p {
+        font-size: 1.0rem;
+    }
+    .contact{
+        height: 336px;
+    }
+}
+
+@media (width <=503px) {
+    .intro {
+        height: 500px;
+        background: url(pecock3.jpg) no-repeat center center/cover;
+        width: auto;
+    }
+
+    .bar {
+        list-style: none;
+        font-size: 1.3rem;
+    }
+
+    .gallery {
+        font-size: 1.8rem;
+    }
+}
+@media (height <=1180px)
+{
+    .main_center{
+        height: 1180px;
+    }
+} 
