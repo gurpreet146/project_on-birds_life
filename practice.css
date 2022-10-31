@@ -71,7 +71,7 @@ header {
 .intro {
     display: flex;
     height: 700px;
-    width: 100%;
+    width: 95%;
     background: url(pecock.jpg) no-repeat center center/cover;
     background-size: contain;
 
@@ -188,6 +188,7 @@ header {
 .types {
     display: flex;
     position: relative;
+    flex-wrap: wrap;
     background-color: black;
     color: white;
     width: 100%;
