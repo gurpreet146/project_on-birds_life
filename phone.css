@@ -243,6 +243,7 @@
         width: 300px;
         height: 140px;
     }
+
     /*life*/
     .center {
         display: flex;
@@ -301,13 +302,21 @@
         text-decoration: underline;
         font-size: 1.5rem;
     }
+
     .center p {
         text-align: center;
         font-size: 1.3rem;
         font-weight: 600;
         color: blue;
     }
+
+    .address li input {
+        width: 390px;
+        text-align: center;
+    }
+
 }
+
 @media (width <=770px) {
     .bar {
         list-style: none;
@@ -365,6 +374,18 @@
     .contact {
         height: 336px;
     }
+
+    .address li input {
+        width: 323px;
+        text-align: center;
+    }
+
+    .address li button {
+        position: relative;
+        height: 39px;
+        left: 109px;
+        font-size: 1.3rem;
+    }
 }
 
 @media (width <=503px) {
@@ -382,6 +403,21 @@
     .gallery {
         font-size: 1.8rem;
     }
+}
+
+@media (width <=560px) {
+    .contact h1 {
+        position: relative;
+        top: -9%;
+        color: white;
+    
+    }
+
+    .address {
+        position: relative;
+        top: 8%;
+    }
+
 }
 
 @media (height <=1180px) {
